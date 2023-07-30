@@ -13,3 +13,97 @@
  *= require_tree .
  *= require_self
  */
+
+ *,
+ *::before,
+ *::after {
+  box-sizing: border-box;
+ }
+
+ html,
+ body {
+  padding: 1.25em 0.5em;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #FFF 0%, #F6F7FB 100%);
+  width: 550px;
+  /* height: 970px; */
+ }
+
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #FFF;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1.5em;
+ }
+
+ /* .header-icon {
+  max-width: 100%;
+  height: auto
+ } */
+
+ .profile,
+ .chat {
+  width: 2.125em;
+  height: 2.125em;
+ }
+
+ .logo {
+  width: 84px;
+  height: 42px;
+ }
+
+ .footer-icon {
+  background: #FFF;
+  padding: 2em;
+  border-radius: 50px;
+  fill: #FFF;
+  filter: drop-shadow(0px 10px 20px #E9E9EA);
+ }
+
+ .like-reject-div {
+  display: flex;
+  margin: 1em auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+ }
+
+ #dog-post {
+  position: relative;
+ }
+
+ .avatar {
+  width: 535px;
+  height: auto;
+  border-radius: 5px;
+ }
+
+ .dog-info {
+  position: absolute;
+  margin: 0px;
+  bottom: 2em;
+  left: 0.5em;
+  font-size: 2rem;
+  line-height: 1.125em;
+  color: #fff;
+ }
+ 
+ .dog-bio {
+  position: absolute;
+  margin: 0px;
+  bottom: 1em;
+  left: 0.5em;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2em;
+ }
+
+ /* .reject {
+  background-color: #FFE7EF;
+ }
+
+ .like {
+  background-color: #DBFFF4;
+ } */

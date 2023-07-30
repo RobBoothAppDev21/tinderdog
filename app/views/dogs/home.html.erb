@@ -3,14 +3,20 @@
 <% end %>
 
 <header>
-  <div>
-    <%= image_tag('icon-profile.png', class: "", alt: "Profile Pic")%>
-    <%= image_tag('logo.png', class: "", alt: "TinderDog Logo") %>
-    <%= image_tag('icon-chat.png', class: "", alt: "Chat icon") %>
+  <div class="navbar">
+    <%= image_tag('icon-profile.png', class: "header-icon profile", alt: "Profile Pic")%>
+    <%= image_tag('logo.png', class: "header-icon logo", alt: "TinderDog Logo") %>
+    <%= image_tag('icon-chat.png', class: "header-icon chat", alt: "Chat icon") %>
   </div>
 </header>
 <section>
+  <div id="dog-post">
+    <p>Hello Dogs Views</p>
+  </div>
 </section>
 <footer>
+  <div class="like-reject-div">
+    <%= image_tag('icon-cross', class: "footer-icon reject", alt: "Reject dog")%>
+    <%= image_tag('icon-heart', class: "footer-icon like", alt: "Like dog")%>
+  </div>
 </footer>
-<p>Hello Dogs Views</p>
