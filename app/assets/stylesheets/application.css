@@ -60,6 +60,7 @@
   border-radius: 50px;
   fill: #FFF;
   filter: drop-shadow(0px 10px 20px #E9E9EA);
+  cursor: pointer;
  }
 
  .like-reject-div {
@@ -100,10 +101,20 @@
   line-height: 2em;
  }
 
- /* .reject {
+ .badge {
+  position: absolute;
+  margin: 0px;
+  top: 3em;
+  left: 1em;
+  transform: rotate(-30deg);
+  width: 233px;
+  height: 116px;
+ }
+
+ /* .reject-dog {
   background-color: #FFE7EF;
  }
 
- .like {
+ .like-dog {
   background-color: #DBFFF4;
  } */
